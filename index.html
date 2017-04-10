@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	    <title>Kyle Estlick</title>
+		<meta name="description" content="Website to promote the work of Kyle Estlick in the fields of Data Science and Information Security" />
+		<meta name="keywords" content="Kyle Estlick, Data Science, UW Grad, University of Washington, MSIM, Information Management" />
+		<meta name="author" content="Kyle Estlick" />
+
+		 <!-- Bootstrap -->
+	    <link href="css/bootstrap.css" rel="stylesheet">
+	    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    	<!-- Include all compiled plugins (below), or include individual files as needed -->
+    	<script src="js/bootstrap.js"></script>
+
+	    <style>
+	    	
+	    	/*
+			Global styling attributes
+	    	*/
+	    	body {
+	    		padding-top: 60px;
+	    	}
+
+	    	/*
+			Navigation and Jumbotron header
+	    	*/
+	    	.navbar {
+	    		border:none !important;
+	    	}
+
+	    	.nav {
+	    		font-size: 0 !important;
+	    	}
+
+	    	.navbar-nav {
+			    float:none;
+			    margin:0 auto;
+			    display: block;
+			    text-align: center;
+			}
+
+			.navbar-nav > li {
+			    display: inline-block;
+			    float:none;
+			}
+
+			.navbar-nav > li:hover {
+				background: rgba(0, 0, 0, .3);
+			}
+
+			.nav .active a {
+				background: #4b2e83 !important;
+			}
+
+			.navbar-nav>li>a>i {
+				font-size: 25pt;
+			}
+
+			.jumbotron {
+				background: url(data_science3.png) no-repeat center center fixed; 
+				background-size: cover;
+				margin-bottom:0 !important;
+			}
+
+			.header-logo {
+				background: url(KE.png) no-repeat center;
+				background-size: contain;
+				height:300px;
+			}
+
+			/*
+			about me styling
+			*/
+			#about {
+
+			}
+
+			/*
+			My Portfolio styling
+			*/
+			#portfolio {
+				border:solid 4px pink;
+			}
+
+			.project_cover {
+				border:solid 3px green;
+				width:100%;
+				height:100%;
+				position:absolute;
+				bottom:0;
+				background-color:blue;
+				opacity:0.7;
+				transition: all 1s;
+
+			}
+
+
+	    </style>
+	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	</head>
+	<body> 
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<!--<div class="container-fluid">-->
+				<!--<div class="navbar-header" style="float:left !important">
+					<a class="navbar-brand" href="#">
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+					</a>
+				</div>-->
+				<ul class="nav navbar-nav">
+					<li class="active" data-toggle="tooltip" data-placement="bottom" data-trigger="hover" title="About"><a href="#"><i class="material-icons">person</i></a></li>
+					<li data-toggle="tooltip" data-placement="bottom" data-trigger="hover" title="Project Portfolio"><a href="#"><i class="material-icons">view_module</i></a></li>
+					<li data-toggle="tooltip" data-placement="bottom" data-trigger="hover" title="Resume"><a href="#"><i class="material-icons" >list</i></a></li>
+					<li data-toggle="tooltip" data-placement="bottom" data-trigger="hover" title="Contact Me"><a href="#"><i class="material-icons">message</i></a></li>
+				</ul>
+			<!--</div>-->
+		</nav>
+		<div class="jumbotron">
+			<div class="container">
+				<div class="col-xs-12 header-logo">
+				</div>
+			</div>
+		</div>
+		<div id="about" style="position:relative;width:100%;height:auto;background-color:#d9d9d9;padding: 25px">
+			<div class="container" style="border:solid 1px blue;padding-left:50px; padding-right:50px;">
+				<div class="col-sm-2 col-xs-12" style="border:solid 2px orange;text-align:right;">
+					<h3 style="border:solid 1px green;padding:0 !important; margin:0 !important">ABOUT</h3>
+				</div>
+				<div class="col-sm-7 col-xs-12" style="border:solid 2px orange;">
+					<h4 style="border:solid 1px pink;margin-top:0"> <small class="text-muted">This is where I will describe what I am all about. This can be anything from where I was born, what I like to do, or why I created this website. This is where I will describe what I am all about. This can be anything from where I was born, what I like to do, or why I created this website. This is where I will describe what I am all about. This can be anything from where I was born, what I like to do, or why I created this website. This is where I will describe what I am all about. This can be anything from where I was born, what I like to do, or why I created this website. This is where I will describe what I am all about. This can be anything from where I was born, what I like to do, or why I created this website. This is where I will describe what I am all about. This can be anything from where I was born, what I like to do, or why I created this website.</small></h4>
+				</div>
+		  		<div class="col-sm-3 col-xs-12" style="border:solid 2px orange; text-align:center">
+					<img src="images/face_pic.jpg" class="img-circle carousel-img" style="width:100%;height:auto;"/>
+				</div>
+			</div>
+		</div>
+		<div id="portfolio">
+	  		<div style="height:300px">
+	  			<div class="col-sm-4 col-xs-12" style="border:solid 1px orange;height:100%;padding:0 !important;">
+	  				<div class="project_cover">
+	  				</div>
+	  				<!--<h1 style="color:white;z-index:1000;position:absolute;">This is a Title</h1>-->
+	  			</div>
+	  			<div class="col-sm-4 col-xs-12" style="border:solid 1px orange;height:100%">
+	  			</div>
+	  			<div class="col-sm-4 col-xs-12" style="border:solid 1px orange;height:100%">
+	  			</div>
+	  		</div>
+	  		<div style="height:300px">
+	  			<div class="col-sm-4 col-xs-12" style="border:solid 1px orange;height:100%">
+	  			</div>
+	  			<div class="col-sm-4 col-xs-12" style="border:solid 1px orange;height:100%">
+	  			</div>
+	  			<div class="col-sm-4 col-xs-12" style="border:solid 1px orange;height:100%">
+	  			</div>
+	  		</div>
+		</div>
+	<script>
+		$("ul li").on("click", function() {
+    		$("li").removeClass("active");
+    		$(this).addClass("active");
+  		});
+
+  		$(function () {
+  			$('[data-toggle="tooltip"]').tooltip()
+		});
+	</script>
+	</body>
+</html>
+
+
+
+
+
